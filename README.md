@@ -1,2 +1,2 @@
 # Fire-man
- Juego de plataformas 
+ Juego de Plataformas
