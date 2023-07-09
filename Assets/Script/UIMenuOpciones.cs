@@ -7,7 +7,15 @@ public class UIMenuOpciones : MonoBehaviour
 {
     public void Regresar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        
+        if (SceneManager.GetActiveScene().name == "Pantalla_Informacion")
+        {
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
     }
 
     public void Ayuda()
